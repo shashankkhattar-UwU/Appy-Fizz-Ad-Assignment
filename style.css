@@ -1,0 +1,124 @@
+*{ 
+    font-family: 'Bebas Neue', cursive;
+}
+html{
+    background-image: url('logo1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+body{
+    margin: 0;
+}
+h1{
+    color: red;
+    text-align: center;
+    border-width: 0px;
+    margin: 0px;
+}
+p{
+    margin-left: 10%;
+    color: white;
+    font-size: 50px;
+}
+p:hover{
+    cursor: pointer;
+    color: red;
+}
+nav a:hover{
+    color: red;
+}
+nav a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+.mediacontent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.feelit{
+    color: goldenrod;
+    font-family: 'Bebas Neue', cursive;;
+    font-size: 40px;
+}
+.info{
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 10%;
+}
+.info:hover{
+    color: red;
+}
+.infodiv{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background: rgba(63, 59, 59, 0.7);
+}
+.bottle{
+    align-self: center;
+    margin-left: 10%;
+    transition: 1s;
+}
+.bottle:hover{
+    transform: rotate(360deg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: x-large;
+    background-color: transparent;
+    overflow: hidden;
+    border: none;
+    border-width: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+}
+.pink{
+    color: rgb(233, 129, 146);
+}
+.red{
+    color: red;
+}
+.blue{
+    color: aqua;
+}
+
+footer{
+    color: white;
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.384);
+    padding: 30px;
+    overflow: hidden;
+}
+.set{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+}
+.box{
+    padding: 20px;
+    border-left: 1px solid black;
+    width: 33%;
+}
+#box1{
+    border-left: none;
+    text-align: center;
+}
+#box2{
+    text-align: center;
+}
+#box3{
+    text-align: center;
+}
